@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Test beeing executed....]]>
+    </line>
+    <line>
+      <![CDATA[Test exection completed...]]>
+    </line>
+    <line>
+      <![CDATA[Test beeing executed....]]>
+    </line>
+    <line>
+      <![CDATA[Actual Welcome Message : Welcome to JALA Academy]]>
+    </line>
+    <line>
+      <![CDATA[Expected Welcome Message : Welcome to JALA Academy]]>
+    </line>
+    <line>
+      <![CDATA[Test exection completed...]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-02-28T14:29:58 IST" name="Suite" finished-at="2023-02-28T14:30:36 IST" duration-ms="37906">
+    <groups>
+    </groups>
+    <test started-at="2023-02-28T14:29:58 IST" name="Login Verification" finished-at="2023-02-28T14:30:36 IST" duration-ms="37906">
+      <class name="comp.magnus.test.MagnusTest">
+        <test-method is-config="true" signature="intialBrowser()[pri:0, instance:comp.magnus.test.MagnusTest@36916eb0]" started-at="2023-02-28T14:29:58 IST" name="intialBrowser" finished-at="2023-02-28T14:30:29 IST" duration-ms="30542" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialBrowser -->
+        <test-method is-config="true" signature="methodmsg()[pri:0, instance:comp.magnus.test.MagnusTest@36916eb0]" started-at="2023-02-28T14:30:29 IST" name="methodmsg" finished-at="2023-02-28T14:30:29 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test beeing executed....]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- methodmsg -->
+        <test-method signature="verifyUserLoginPage()[pri:0, instance:comp.magnus.test.MagnusTest@36916eb0]" started-at="2023-02-28T14:30:29 IST" name="verifyUserLoginPage" finished-at="2023-02-28T14:30:31 IST" duration-ms="2752" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserLoginPage -->
+        <test-method is-config="true" signature="testExecutionStatus()[pri:0, instance:comp.magnus.test.MagnusTest@36916eb0]" started-at="2023-02-28T14:30:31 IST" name="testExecutionStatus" finished-at="2023-02-28T14:30:31 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test exection completed...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testExecutionStatus -->
+        <test-method is-config="true" signature="methodmsg()[pri:0, instance:comp.magnus.test.MagnusTest@36916eb0]" started-at="2023-02-28T14:30:31 IST" name="methodmsg" finished-at="2023-02-28T14:30:31 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test beeing executed....]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- methodmsg -->
+        <test-method signature="verifyWelcomeMsg()[pri:1, instance:comp.magnus.test.MagnusTest@36916eb0]" started-at="2023-02-28T14:30:31 IST" name="verifyWelcomeMsg" finished-at="2023-02-28T14:30:32 IST" duration-ms="861" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Actual Welcome Message : Welcome to JALA Academy]]>
+            </line>
+            <line>
+              <![CDATA[Expected Welcome Message : Welcome to JALA Academy]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyWelcomeMsg -->
+        <test-method is-config="true" signature="testExecutionStatus()[pri:0, instance:comp.magnus.test.MagnusTest@36916eb0]" started-at="2023-02-28T14:30:32 IST" name="testExecutionStatus" finished-at="2023-02-28T14:30:32 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test exection completed...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testExecutionStatus -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:comp.magnus.test.MagnusTest@36916eb0]" started-at="2023-02-28T14:30:32 IST" name="closeBrowser" finished-at="2023-02-28T14:30:36 IST" duration-ms="3622" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- comp.magnus.test.MagnusTest -->
+    </test> <!-- Login Verification -->
+  </suite> <!-- Suite -->
+</testng-results>
