@@ -25,6 +25,5 @@ public class Utility {
 		return value;
 	}
 	
-//	Sheet data1 = WorkbookFactory.create(file).getSheet("data1");
-//	data1.get
+
 }
