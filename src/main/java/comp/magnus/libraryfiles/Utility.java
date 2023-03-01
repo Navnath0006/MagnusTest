@@ -24,6 +24,12 @@ public class Utility {
 		String value = data1.getRow(row).getCell(col).getStringCellValue();
 		return value;
 	}
+	public static String getempdata(int row, int col) throws EncryptedDocumentException, IOException {
+		FileInputStream file = new FileInputStream("C:\\Users\\Prachi\\eclipse-workspace\\magnus\\Testdata\\magnustestdata.xlsx");
+		Sheet data1 = WorkbookFactory.create(file).getSheet("empdata");
+		String value = data1.getRow(row).getCell(col).getStringCellValue();
+		return value;
+	}
 	
 
 }

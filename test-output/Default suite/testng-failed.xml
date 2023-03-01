@@ -3,15 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="comp.magnus.test.MagnusTest">
+      <class name="comp.magnus.test.MagnusCRUDTest">
         <methods>
-          <include name="intialBrowser"/>
-          <include name="testExecutionStatus"/>
-          <include name="methodmsg"/>
-          <include name="closeBrowser"/>
-          <include name="verifyWelcomeMsg"/>
+          <include name="tearDown"/>
+          <include name="addNewEmployeeRecordTest"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- comp.magnus.test.MagnusTest -->
+      </class> <!-- comp.magnus.test.MagnusCRUDTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
