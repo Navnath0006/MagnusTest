@@ -1,29 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-03-01T03:15:52 IST" name="Default suite" finished-at="2023-03-01T03:16:30 IST" duration-ms="38538">
+  <suite started-at="2023-03-02T23:23:33 IST" name="Default suite" finished-at="2023-03-02T23:24:02 IST" duration-ms="29317">
     <groups>
     </groups>
-    <test started-at="2023-03-01T03:15:52 IST" name="Default test" finished-at="2023-03-01T03:16:30 IST" duration-ms="38538">
-      <class name="comp.magnus.test.MagnusCRUDTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:comp.magnus.test.MagnusCRUDTest@957e06]" started-at="2023-03-01T03:15:52 IST" name="setup" finished-at="2023-03-01T03:16:02 IST" duration-ms="10652" status="PASS">
+    <test started-at="2023-03-02T23:23:33 IST" name="Default test" finished-at="2023-03-02T23:24:02 IST" duration-ms="29317">
+      <class name="CRUDEmployeeDetailsTestCases.EmployeeDetailTests">
+        <test-method is-config="true" signature="setupBrowser()[pri:0, instance:CRUDEmployeeDetailsTestCases.EmployeeDetailTests@7bab3f1a]" started-at="2023-03-02T23:23:33 IST" name="setupBrowser" finished-at="2023-03-02T23:23:53 IST" duration-ms="20371" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="loginPageTes()[pri:0, instance:comp.magnus.test.MagnusCRUDTest@957e06]" started-at="2023-03-01T03:16:02 IST" name="loginPageTes" finished-at="2023-03-01T03:16:12 IST" duration-ms="9838" status="PASS">
+        </test-method> <!-- setupBrowser -->
+        <test-method signature="createNewEployeeRecord()[pri:0, instance:CRUDEmployeeDetailsTestCases.EmployeeDetailTests@7bab3f1a]" started-at="2023-03-02T23:23:53 IST" name="createNewEployeeRecord" finished-at="2023-03-02T23:24:01 IST" duration-ms="7649" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginPageTes -->
-        <test-method signature="addNewEmployeeRecordTest()[pri:1, instance:comp.magnus.test.MagnusCRUDTest@957e06]" started-at="2023-03-01T03:16:12 IST" name="addNewEmployeeRecordTest" finished-at="2023-03-01T03:16:23 IST" duration-ms="10505" status="PASS">
+        </test-method> <!-- createNewEployeeRecord -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:CRUDEmployeeDetailsTestCases.EmployeeDetailTests@7bab3f1a]" started-at="2023-03-02T23:24:01 IST" name="teardown" finished-at="2023-03-02T23:24:02 IST" duration-ms="1183" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- addNewEmployeeRecordTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:comp.magnus.test.MagnusCRUDTest@957e06]" started-at="2023-03-01T03:16:23 IST" name="tearDown" finished-at="2023-03-01T03:16:30 IST" duration-ms="7277" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- comp.magnus.test.MagnusCRUDTest -->
+        </test-method> <!-- teardown -->
+      </class> <!-- CRUDEmployeeDetailsTestCases.EmployeeDetailTests -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
