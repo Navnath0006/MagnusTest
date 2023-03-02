@@ -6,7 +6,8 @@
 </listeners>
   <test thread-count="5" name="Login Verification">
     <classes>
-      <class name="comp.magnus.test.MagnusTest"/>
+	<!--<class name="comp.magnus.test.MagnusTest"/> --> 
+	<class name="CRUDEmployeeDetailsTestCases.EmployeeDetailTests"/>     
     </classes>
   </test> <!-- Login Verification -->
 </suite> <!-- Suite -->

@@ -3,6 +3,8 @@ package CRUDEmployeeDetailsTestCases;
 import java.io.IOException;
 
 import org.apache.poi.EncryptedDocumentException;
+import org.testng.Assert;
+import org.testng.Reporter;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeTest;
@@ -30,7 +32,10 @@ public class EmployeeDetailTests extends Base {
 	public void createNewEployeeRecord() throws EncryptedDocumentException, IOException {
 		Employee emp = new Employee(Utility.getempdata(2, 0), Utility.getempdata(2, 1),
 				Utility.getempdata(2, 2), Utility.getempdata(2, 3));
-		emp1.AddEmployee(emp);
+		String successmsg = emp1.AddEmployee(emp);
+		//System.out.println(successmsg);
+		Assert.assertEquals(successmsg, Utility.getempdata(2, 4));
+		Reporter.log("After Assert : "+successmsg,true);
 	}
 
 	@AfterClass
